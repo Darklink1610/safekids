@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/fond3.jpg) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.87);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.h1 {
+  margin: 0;
+  padding: 0 0 10px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.button-primary {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  background: #b80f22;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.input[type="text"], .input[type="password"],.input[type="date"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+.a2 {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  color: #08E278;
+}
+.a:hover {
+  color: #fff;
+}
+.nuevo{
+  float: left;
+  width: 50%;
+}
+.salir{
+  float: right;
+  text-align: end;
+  width: 50%;
+}
+.usuarions{
+  margin-top: 50px;
+}
+.alin-center{
+  
+text-align: center;
+}
+
+.table {     
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    margin: 45px;    
+    width: 900px; 
+    text-align: left;    
+    border-collapse: collapse; 
+}
+
+.th {   
+	font-size: 13px;     
+	font-weight: normal;     
+	padding: 10px;     
+	background: #535353;
+  border-top: 4px solid #02ffab;    
+  border-bottom: 1px solid #fff; 
+  color: rgb(255, 255, 255); 
+}
+
+.td {    
+	padding: 8px;     
+	background: #000000;     
+	border-bottom: 1px solid #fff;
+  color: rgb(189, 189, 197);    
+  border-top: 1px solid transparent; 
+}
+.btn{
+  border-color: rgb(255, 255, 255);
+}
+.Ubicar{
+ background-color:#02ffab ;
+}
+.Primario{
+  background-color:#08E278 ;
+}
+.Editar{
+  background-color: rgb(91, 149, 224);
+}
+.Eliniar{
+  background-color: rgb(238, 75, 53);
+}

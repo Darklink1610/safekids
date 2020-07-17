@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Vigilar y actualizar la ubicación del dispositivo con JavaScript">
+	<meta name="author" content="Parzibyte">
+	<title>Ubicación</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	 crossorigin="anonymous">
+	 <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+</head>
+
+<body>
+	<main role="main" class="container">
+		<div class="row">
+
+			<div class="col-12">
+				<h1>Ubicación</h1>
+				<br>
+				<button id="btnIniciar" class="btn btn-info">Iniciar</button>
+				<button id="btnDetener" class="btn btn-danger">Detener</button>
+				<br>
+				<strong>Latitud: </strong> <span id="latitud"></span>
+				<strong>Longitud: </strong> <span id="longitud"></span>
+				<br>						
+				<input type="text" id="lat" name="lat" >
+				<input type="text" id="lon" name="lon">
+
+				<br>
+				<pre id="log"></pre>
+			</div>
+		</div>
+	</main>
+	<script src="script.js">
+	</script>
+</body>
+
+</html>
